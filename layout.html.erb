@@ -20,7 +20,7 @@
       .wrapper { display: block; }
       body { font-size: 100%; }
       body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { font-family: Helvetica, Arial, sans-serif; }
-      h1,h2,h3,h4,h5,h6 { font-weight: bold; }
+      h1,h2,h3,h4,h5,h6 { font-weight: bold; font-family: Times, serif;}
       h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em;}
       h2 { font-size: 2em; margin-bottom: 0.75em;border-bottom: 1px solid #999; }
       h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
@@ -62,12 +62,13 @@
       div#page {margin: 0 auto; width: 900px; }  
       div#body{ margin-top: 20px;}
       span.heading-num { color: #999; padding-right: 1em;}
-      div#toc { margin-top: 20px;background-color: #ebebeb;padding:1em;}
+      div#toc { margin: 20px 0 0 20px;background-color: #ebebeb;padding:1em;float:right;border: 1px solid #999;}
      </style>
   </head>
   <body>
     <div id="page">
       <div id="toc">
+        <strong>Table of Contents</strong><br />
         <toc numbering_start="1" toc_range="h2-h4" />
       </div>
       <div id="body">
